@@ -9,6 +9,7 @@ main {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 100vh;
+  height: calc(100 * var(--vh));
+  --vh: 500px;
   background: #F04229;
 }
