@@ -4,6 +4,7 @@ import Construction from '../components/construction/construction';
 
 const Home: NextPage = () => {
   useEffect(() => {
+    document.querySelector('main')?.style.setProperty('--vh', window.innerHeight/100 + 'px');
     window.addEventListener('resize', () => {
       document.querySelector('main')?.style.setProperty('--vh', window.innerHeight/100 + 'px');
     })

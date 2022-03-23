@@ -10,6 +10,6 @@ main {
   align-items: center;
   width: 100vw;
   height: calc(100 * var(--vh));
-  --vh: 500px;
+  /* --vh: 500px; */
   background: #F04229;
 }
